@@ -1,0 +1,1074 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: aqua; */
+}
+/* Media query for desktop*/
+@media (min-width: 1024px) {
+    
+
+    #left {
+        height: 55rem;
+        width: 35%;
+        margin-left: 12%;
+        /* background-color: aquamarine; */
+        float: left;
+    }
+
+    #right {
+        height: 55rem;
+        width: 42.5%;
+        margin-left: 5%;
+        /* background-color: rgb(9, 170, 116); */
+        float: left;
+    }
+
+    #boxContainer {
+        margin-top: 2.4rem;
+        height: 45rem;
+        width: 90%;
+        margin-left: 6%;
+        /* background-color: rgb(3, 44, 30); */
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0.5rem;
+    }
+
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px rgb(63, 63, 63);
+        border-radius: 0.313rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: black;
+        border-radius: 0.625rem;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(78, 78, 78);
+    }
+
+    .box {
+        height: fit-height;
+        width: 95%;
+        background-color: white;
+        border-radius: 0.625rem;
+        margin-bottom: 1rem;
+        border: 2px solid black;
+    }
+
+    .far {
+        display: contents !important;
+    }
+
+    .topDiv {
+        height: 2rem;
+        width: 90%;
+        margin-left: 5%;
+        /* background-color: red; */
+        margin-top: 1rem;
+    }
+
+    .star {
+        height: 2rem;
+        width: 5%;
+        /* background-color: blue; */
+        float: left;
+    }
+
+    .stet {
+        height: 2rem;
+        margin-left: 5%;
+        width: 75%;
+        /* background-color: rgb(180, 180, 255); */
+        float: left;
+    }
+
+    .arrow {
+        height: 2rem;
+        width: 2%;
+        /* background-color: blue; */
+        float: left;
+    }
+
+    .gap {
+        height: 2rem;
+        width: 8%;
+        float: left;
+    }
+
+    .delIcon {
+        height: 2rem;
+        width: 5%;
+        /* background-color: rgb(9, 207, 241); */
+        float: left;
+
+    }
+
+    .eventName {
+        margin-left: 5%;
+    }
+
+    .downarrow {
+        text-align: center;
+        display: grid;
+    }
+
+    .description {
+        padding: 5%;
+        padding-top: 0%;
+        user-select: none;
+    }
+
+    i {
+        cursor: pointer !important;
+    }
+
+    * {
+        caret-color: rgba(255, 0, 0, 0);
+    }
+
+    #topbar {
+        /* background-color: blueviolet; */
+        height: 2rem;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 1.5rem;
+    }
+
+    .name1 {
+        /* background-color: antiquewhite; */
+        height: 2rem;
+        width: 50%;
+        float: left;
+    }
+
+    .name2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .date2 {
+        /* background-color: rgb(240, 170, 79); */
+        float: left;
+        width: 30%;
+    }
+
+    .date3 {
+        border-radius: 0.3rem;
+        margin-left: 0.1rem;
+        /* padding-left: 1.2rem; */
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 75%;
+        /* padding-right: 9.8rem; */
+
+    }
+
+    .button2 {
+        /* background-color: aqua; */
+        float: left;
+        width: 20%;
+    }
+
+    .button3 {
+        border-radius: 0.25rem;
+        margin-left: 0.3rem;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        /* padding-left: 1.5rem;
+        padding-right: 1.5rem; */
+        background-color: #000000;
+        color: aliceblue;
+        width: 90%;
+    }
+
+    .button3:hover {
+        cursor: pointer;
+        background-color: aliceblue;
+        color: #000000;
+    }
+
+
+    .name {
+        margin-left: 3rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+    }
+
+
+    .ename {
+        /* margin-top: -0.5rem;
+        margin-left: 3.1rem;
+        padding-left: 1.5rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        padding-right: 6.3rem; */
+        border-radius: 0.313rem; 
+
+        margin-left: 3.1rem;
+        width: 60%;
+        height: 30px;
+        border: 2px solid black;
+        padding-left: 1.2rem;
+        cursor: pointer;
+    }
+
+    .textRemaining {
+        margin-left: 3.1rem;
+    }
+
+    .date1 {
+        /* margin-top: -0.5rem;
+        margin-left: 3.1rem;
+        padding-left: 1.2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 9.8rem; */
+        border-radius: 0.313rem;
+        margin-left: 3.1rem;
+        width: 60%;
+        height: 1.875rem;
+        border: 2px solid black;
+        padding-left: 1.2rem;
+        cursor: pointer;
+
+    }
+
+
+
+    .setime {
+        /* margin-top: -0.5rem;
+        margin-left: 3.1rem;
+        padding-left: 1.2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 12.5rem; */
+        border-radius: 0.313rem; 
+        margin-left: 3.1rem;
+        width: 60%;
+        height: 1.875rem;
+        border: 2px solid black;
+        padding-left: 1.2rem;
+        cursor: pointer;
+    }
+
+    .des {
+        /* margin-top: -0.5rem;
+        margin-left: 3.1rem;
+        padding-left: 1.2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 6rem; */
+        border-radius: 0.313rem; 
+        /* margin-left: 10%;
+        width: 61%; */
+
+        margin-left: 3.1rem;
+        width: 60%;
+        border: 2px solid black;
+        padding-left: 1.2rem;
+        cursor: pointer;
+    }
+
+    #charscount {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .button1 {
+        margin-top: 0.6rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+        margin-left: 5.2rem;
+        background-color: black;
+        color: aliceblue;
+        border-radius: 0.25rem;
+        cursor: pointer !important;
+    }
+
+    .button1:hover {
+        cursor: pointer;
+        background-color: aliceblue;
+        color: black;
+        cursor: pointer !important;
+    }
+
+    .fas.fa-arrow-right {
+        margin-left: 0.6rem;
+    }
+
+    .text {
+        /* margin-left: 2.3rem; */
+        width: fit-content;
+        block-size: fit-content;
+
+    }
+
+    .fas.fa-chevron-down:hover {
+        cursor: pointer;
+    }
+
+    /* --------------------- */
+    /* Style for reset button */
+    .resetButton {
+        margin-left: 0.1rem;
+        margin-right: -2rem;
+        
+        /* Adjust margin as needed */
+    }
+
+    /* Style for button */
+    .resetButton input[type="button"] {
+        margin-top: 0.625rem;
+        background-color: #ddd;
+        /* Button background color */
+        color: #000;
+        /* Button text color */
+        border: none;
+        padding: 0.5rem 1rem;
+        /* Button padding */
+        cursor: pointer;
+    }
+
+    /* Hover effect */
+    .resetButton input[type="button"]:hover {
+        background-color: #323232;
+        color: #ddd;
+        /* Button background color on hover */
+    }
+
+}
+
+/* ======================================== end of desktop view ========================================================= ======================================================================================================================= */
+
+
+/* Media query for tablet*/
+@media (min-width: 768px) and (max-width:1023px) {
+
+    /* body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    } */
+
+    #left {
+        height: 55rem;
+        width: 35%;
+        margin-left: 12%;
+        /* background-color: aquamarine; */
+        float: left;
+    }
+
+    #right {
+        height: 55rem;
+        width: 42.5%;
+        margin-left: 5%;
+        /* background-color: rgb(9, 170, 116); */
+        float: left;
+    }
+
+    #boxContainer {
+        margin-top: 2.4rem;
+        height: 45rem;
+        width: 90%;
+        margin-left: 6%;
+        /* background-color: rgb(3, 44, 30); */
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0.5rem;
+    }
+
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px rgb(63, 63, 63);
+        border-radius: 0.313rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: black;
+        border-radius: 0.625rem;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(78, 78, 78);
+    }
+
+    .box {
+        height: fit-height;
+        width: 95%;
+        background-color: white;
+        border-radius: 0.625rem;
+        margin-bottom: 1rem;
+        border: 2px solid black;
+    }
+
+    .far {
+        display: contents !important;
+    }
+
+    .topDiv {
+        height: 2rem;
+        width: 90%;
+        margin-left: 5%;
+        /* background-color: red; */
+        margin-top: 1rem;
+    }
+
+    .star {
+        height: 2rem;
+        width: 5%;
+        /* background-color: blue; */
+        float: left;
+    }
+
+    .stet {
+        height: 2rem;
+        margin-left: 5%;
+        width: 75%;
+        /* background-color: rgb(180, 180, 255); */
+        float: left;
+    }
+
+    .arrow {
+        height: 2rem;
+        width: 1%;
+        /* background-color: blue; */
+        float: left;
+    }
+
+    .gap {
+        height: 2rem;
+        width: 8%;
+        float: left;
+    }
+
+    .delIcon {
+        height: 2rem;
+        width: 5%;
+        /* background-color: rgb(9, 207, 241); */
+        float: left;
+
+    }
+
+    .eventName {
+        margin-left: 5%;
+    }
+
+    .downarrow {
+        text-align: center;
+        display: grid;
+    }
+
+    .description {
+        padding: 5%;
+        padding-top: 0%;
+        user-select: none;
+    }
+
+    i {
+        cursor: pointer !important;
+    }
+
+    * {
+        caret-color: rgba(255, 0, 0, 0);
+    }
+
+    #topbar {
+        /* background-color: blueviolet; */
+        height: 2rem;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 1.5rem;
+    }
+
+    .name1 {
+        /* background-color: antiquewhite; */
+        height: 2rem;
+        width: 37%;
+        float: left;
+    }
+
+    .name2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .date2 {
+        /* background-color: rgb(240, 170, 79); */
+        float: left;
+        width: 30%;
+    }
+
+    .date3 {
+        border-radius: 0.3rem;
+        margin-left: 0.1rem;
+        /* padding-left: 1.2rem; */
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        /* padding-left: 1rem;
+        padding-right: 1rem; */
+        width: 110%;
+        /* padding-right: 9.8rem; */
+
+    }
+
+    .button2 {
+        /* background-color: aqua; */
+        float: left;
+        width: 25%;
+        margin-left: 1rem;
+
+    }
+
+    .button3 {
+        border-radius: 0.25rem;
+        margin-left: 0.3rem;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        /* padding-left: 1.5rem;
+        padding-right: 1.5rem; */
+        background-color: #000000;
+        color: aliceblue;
+        width: 90%;
+        /* margin-left: 1.8rem; */
+    }
+
+    .button3:hover {
+        cursor: pointer;
+        background-color: aliceblue;
+        color: #000000;
+    }
+
+    .name {
+        margin-left: 3rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+    }
+
+
+    .ename {
+        /* margin-top: -0.5rem;
+        margin-left: 3.1rem;
+        padding-left: 1.5rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        padding-right: 1.8rem; */
+        border-radius: 0.313rem; 
+
+        margin-left: 3.1rem;
+        width: 60%;
+        height: 1.875rem;
+        border: 2px solid black;
+        padding-left: 1.2rem;
+        cursor: pointer;
+    }
+
+    .textRemaining {
+        margin-left: 3.1rem;
+    }
+
+    .date1 {
+        /* margin-top: -0.5rem;
+        margin-left: 3.1rem;
+        padding-left: 1.2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 5.4rem; */
+        border-radius: 0.313rem; 
+
+        margin-left: 3.1rem;
+        width: 60%;
+        height: 1.875rem;
+        border: 2px solid black;
+        padding-left: 1.2rem;
+        cursor: pointer;
+    }
+
+
+
+    .setime {
+        /* margin-top: -0.5rem;
+        margin-left: 3.1rem;
+        padding-left: 1.2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 8.4rem; */
+        border-radius: 0.313rem; 
+        margin-left: 3.1rem;
+        width: 60%;
+        height: 1.875rem;
+        border: 2px solid black;
+        padding-left: 1.2rem;
+        cursor: pointer;
+    }
+
+    .des {
+        /* margin-top: -0.5rem;
+        margin-left: 3.1rem;
+        padding-left: 1.2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 2.8rem; */
+        border-radius: 0.313rem; 
+
+        /* margin-left: 10%;
+        width: 61%; */
+
+        margin-left: 3.1rem;
+        width: 60%;
+        /* height: 30px; */
+        border: 2px solid black;
+        padding-left: 1.2rem;
+        cursor: pointer;
+    }
+
+    #charscount {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .button1 {
+        margin-top: 0.6rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+        margin-left: 5.2rem;
+        background-color: black;
+        color: aliceblue;
+        border-radius: 0.25rem;
+        cursor: pointer !important;
+    }
+
+    .button1:hover {
+        cursor: pointer;
+        background-color: aliceblue;
+        color: black;
+        cursor: pointer !important;
+    }
+
+    .fas.fa-arrow-right {
+        margin-left: 0.6rem;
+    }
+
+    .text {
+        /* margin-left: 2.3rem; */
+        width: fit-content;
+        block-size: fit-content;
+
+    }
+
+    .fas.fa-chevron-down:hover {
+        cursor: pointer;
+    }
+
+    /* --------------------- */
+    /* Style for reset button */
+    .resetButton {
+        margin-left: 0.1rem;
+        margin-right: -0.8rem;
+        /* Adjust margin as needed */
+    }
+
+    /* Style for button */
+    .resetButton input[type="button"] {
+        margin-top: 0.625rem;
+        background-color: #ddd;
+        /* Button background color */
+        color: #000;
+        /* Button text color */
+        border: none;
+        padding: 0.5rem 1rem;
+        /* Button padding */
+        cursor: pointer;
+    }
+
+    /* Hover effect */
+    .resetButton input[type="button"]:hover {
+        background-color: #323232;
+        color: #ddd;
+        /* Button background color on hover */
+    }
+
+}
+
+/* ======================================== end of tablet view ========================================================= ======================================================================================================================= */
+
+
+/* Media query for mobile*/
+@media (max-width: 767px) {
+    /* body {
+        background-color: rgb(23, 207, 94);
+        font-family: 'Poppins', sans-serif;
+        margin-top: 40rem;
+    } */
+
+    .box {
+        height: fit-height;
+        width: 95%;
+        background-color: white;
+        border-radius: 0.625rem;
+        margin-bottom: 1rem;
+        border: 2px solid black;
+    }
+
+    #boxContainer {
+        margin-top: 2.4rem;
+        height: 45rem;
+        width: 90%;
+        margin-left: 6%;
+        /* background-color: rgb(3, 44, 30); */
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .topDiv {
+        height: 2rem;
+        width: 90%;
+        margin-left: 5%;
+        /* background-color: red; */
+        margin-top: 1rem;
+    }
+
+    .star {
+        height: 2rem;
+        width: 5%;
+        /* background-color: blue; */
+        float: left;
+    }
+
+    .stet {
+        height: 2rem;
+        margin-left: 5%;
+        width: 75%;
+        /* background-color: rgb(180, 180, 255); */
+        float: left;
+    }
+
+    .arrow {
+        height: 2rem;
+        width: 1%;
+        /* background-color: blue; */
+        float: left;
+    }
+
+    .gap {
+        height: 2rem;
+        width: 8%;
+        float: left;
+    }
+
+    .delIcon {
+        height: 2rem;
+        width: 5%;
+        /* background-color: rgb(9, 207, 241); */
+        float: left;
+
+    }
+
+    .eventName {
+        margin-left: 5%;
+    }
+
+    .downarrow {
+        text-align: center;
+        display: grid;
+    }
+
+    .description {
+        padding: 5%;
+        padding-top: 0%;
+        user-select: none;
+    }
+
+    #topbar {
+        /* background-color: blueviolet; */
+        height: 2rem;
+        width: 95%;
+        margin-left: 2%;
+        margin-top: 1.5rem;
+    }
+
+    .name1 {
+        /* background-color: antiquewhite; */
+        height: 2rem;
+        width: 40%;
+        float: left;
+    }
+
+    .name2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .date2 {
+        /* background-color: rgb(240, 170, 79); */
+        float: left;
+        width: 40%;
+        /* padding-top: 0.5rem; */
+
+    }
+
+    .date3 {
+        border-radius: 0.3rem;
+        padding-top: 0.35rem;
+        padding-bottom: 0.35rem;
+        padding-right: 1rem;
+        margin-left: 0.1rem;
+        width: 75%;
+    }
+
+    .button2 {
+        /* background-color: aqua; */
+        float: left;
+        width: 20%;
+        /* padding-top: 0.5rem; */
+    }
+
+    .button3 {
+        /* float: left; */
+        border-radius: 0.25rem;
+        margin-left: 0.1rem;
+        padding-top: 0.38rem;
+        padding-bottom: 0.38rem;
+        width: 100%;
+        background-color: #000000;
+        color: aliceblue;
+    }
+
+    .button3:hover {
+        cursor: pointer;
+        background-color: aliceblue;
+        color: #000000;
+    }
+
+    .name {
+        margin-left: 3rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+    }
+
+
+    .ename {
+        /* margin-top: -0.5rem;
+        margin-left: 3.1rem;
+        padding-left: 1.5rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        padding-right: 6.3rem; */
+        border-radius: 0.313rem; 
+
+        margin-left: 3.1rem;
+        width: 60%;
+        height: 1.875rem;
+        border: 2px solid black;
+        padding-left: 1.2rem;
+        cursor: pointer;
+    }
+
+    .textRemaining {
+        margin-left: 3.1rem;
+    }
+
+    .date1 {
+        /* margin-top: -0.5rem;
+        margin-left: 3.1rem;
+        padding-left: 1.2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 9.8rem; */
+        border-radius: 0.313rem; 
+
+        margin-left: 3.1rem;
+        width: 60%;
+        height: 1.875rem;
+        border: 2px solid black;
+        padding-left: 1.2rem;
+        cursor: pointer;
+    }
+
+
+
+    .setime {
+        /* margin-top: -0.5rem;
+        margin-left: 3.1rem;
+        padding-left: 1.2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 12.5rem; */
+        border-radius: 0.313rem; 
+
+        margin-left: 3.1rem;
+        width: 60%;
+        height: 1.875rem;
+        border: 2px solid black;
+        padding-left: 1.2rem;
+        cursor: pointer;
+    }
+
+    .des {
+        /* margin-top: -0.5rem;
+        margin-left: 3.1rem;
+        padding-left: 1.2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 6rem; */
+        border-radius: 0.313rem; 
+
+        /* margin-left: 10%;
+        width: 61%; */
+
+        margin-left: 3.1rem;
+        width: 60%;
+        /* height: 30px; */
+        border: 2px solid black;
+        padding-left: 1.2rem;
+        cursor: pointer;
+    }
+
+    #charscount {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .button1 {
+        margin-top: 0.6rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+        margin-left: 5.2rem;
+        background-color: black;
+        color: aliceblue;
+        border-radius: 0.25rem;
+        cursor: pointer !important;
+    }
+
+    .button1:hover {
+        cursor: pointer;
+        background-color: aliceblue;
+        color: black;
+        cursor: pointer !important;
+    }
+
+    .fas.fa-arrow-right {
+        margin-left: 0.6rem;
+    }
+
+    .text {
+        /* margin-left: 2.3rem; */
+        width: fit-content;
+        block-size: fit-content;
+
+    }
+
+    .fas.fa-chevron-down:hover {
+        cursor: pointer;
+    }
+
+
+    /* --------------------- */
+    /* Style for reset button */
+    .resetButton {
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+        /* Adjust margin as needed */
+    }
+
+    /* Style for button */
+    .resetButton input[type="button"] {
+        margin-top: 0.625rem;
+        background-color: #ddd;
+        /* Button background color */
+        color: #000;
+        /* Button text color */
+        border: none;
+        padding: 0.5rem 1rem;
+        /* Button padding */
+        cursor: pointer;
+    }
+
+    /* Hover effect */
+    .resetButton input[type="button"]:hover {
+        background-color: #323232;
+        color: #ddd;
+        /* Button background color on hover */
+    }
+
+    /* footer section styling */
+    
+    
+}
+
+/* ======================================== end of mobile view ========================================================= ======================================================================================================================= */
+
+/* footer section styling */
+/* 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+/* Media query for smaller screens */
+/*
+@media screen and (max-width: 600px) {
+    .footer{
+        position: static;
+    }
+}
+
+
+
+
+
+
+/* .button2 {
+    margin-top: 0.6rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    margin-left: 0.3rem;
+    background-color: black;
+    color: azure;
+    border-radius: 0.2rem;
+} */
+
+/* .button2:hover {
+    cursor: pointer;
+    background-color: rgb(36, 35, 35);
+} */
+
+
+
+/* .fas.fa-chevron-up:hover {
+            cursor: pointer;
+        } */
+/* footer {
+    margin-left: 5rem;
+    background-color: rgb(53, 52, 52);
+    
+    margin-top: 58rem;
+    padding: 0.938rem 4.875rem;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+} */
+
